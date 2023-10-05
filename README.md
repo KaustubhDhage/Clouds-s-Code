@@ -23,7 +23,7 @@ You may notice that the downloaded folder is organized as:
 │   ├── gt_bbox/                    /* We do not use it 
 │   ├── gt_query/                   /* Files for multiple query testing 
 │   ├── query/                      /* Files for testing (query images)
-│   ├── readme.txt
+│   ├── readme.txt 
 Open and edit the script prepare.py in the editor. Change the fifth line in prepare.py to your download path, such as \home\zzd\Download\Market. Run this script in the terminal.
 
 python prepare.py
