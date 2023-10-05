@@ -1,4 +1,4 @@
-# Clouds-s-Code
+# Person Re-Identification Using CCTV Footage
 Prerequisites
 Python 3.6
 GPU Memory >= 6G
