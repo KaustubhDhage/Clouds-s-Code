@@ -250,21 +250,3 @@ except RuntimeError:
         img_path = image_datasets.imgs[index[i]]
         print(img_path[0])
     print('If you want to see the visualization of the ranking result, graphical user interface is needed.')
-Part 4: Your Turn.
-Market-1501 is a dataset collected at Tsinghua University in summer.
-Let's try another dataset called DukeMTMC-reID, which is collected at Duke University in winter.
-
-You may download the dataset at Here. Try it by yourself.
-
-The dataset is quite similar to Market-1501. You may also check with the state-of-the-art results at Here.
-
-+ Quick Question. Could we directly apply the model trained on Market-1501 to DukeMTMC-reID? Why?
-Try Triplet Loss. Triplet loss is another widely-used objective. You may check the code in https://github.com/layumi/Person-reID-triplet-loss. I write the code in a similar manner, so let's find what I changed.
-Part5: Other Related Works
-Could we use natural language as query? Check this paper. 
-
-Could we use other losses (i.e. contrastive loss) to further improve the performance? Check this paper.
-
-Person-reID dataset is not large enough to train a deep-learned network? You may check this paper and try some data augmentation method like random erasing.
-
-Pedestrian detection is bad? Try Open Pose and Spatial Transformer to align the images.
